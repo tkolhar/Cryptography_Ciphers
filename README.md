@@ -1,6 +1,6 @@
 # Cryptography_Ciphers
 
-Problem 1: 
+##Problem 1: 
 
 1.Write computer programs for the Substitution Cipher based on Z29 which is cor-
 responding to 26 alphabetic characters, space (26), \, " (27), and \."(28). 
@@ -21,12 +21,12 @@ Accept a permutation by the program which is set { a to z, space,comma, period}
 Explanation of Substitution Cipher: 
 
 Encryption:
-1.	We encrypt using the logic that for each value appeared in the plaintext it will be replaced with the key. 
+`1.	We encrypt using the logic that for each value appeared in the plaintext it will be replaced with the key.` 
 
-2.	For example, if there is an alphabet ‘l’ in the plaintext it will be replaced with comma (,) if there is an alphabet ‘i’ in the plaintext it will be replaced with ‘b’.
+`2.	For example, if there is an alphabet ‘l’ in the plaintext it will be replaced with comma (,) if there is an alphabet ‘i’ in the plaintext it will be replaced with ‘b’.`
 
-Decryption:
-1.	For decryption, we just replace back by mapping to original value. 
+`Decryption:
+1.	For decryption, we just replace back by mapping to original value. `
 
 For example, if alphabet ‘v’ is in the encrypted text it will be replaced with ‘h’.
                 
@@ -48,7 +48,7 @@ Decryption back to the original text using the same key:
 
 Your original sentence was: 
 
-life is harder when you have choices. my culture believes that parents choose your path in life. back in home my friends and i talked around what our parents wanted for us and worked carefully to get those goals. then we moved here and i find myself in a culture where the children have to say about what they want to do.
+life is harder when you have choices. my culture believes that parents choose your path in life. back in home my friends and i talked around what our parents wanted for us and worked carefully to get those goals. then we moved here and i find myself in a culture where the children have to say about what they want to do.`
 
 Problem 2:
 Write computer programs for the Permutation Cipher based on Z29 as in Problem
